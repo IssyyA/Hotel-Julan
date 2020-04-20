@@ -1,14 +1,69 @@
-navbar .logo {
+#navbar .logo {
     float: none;
     text-align: center;
 }
 
-navbar ul,
-navbar ul li {
+#navbar ul,
+#navbar ul li {
     float: none;
+    text-align: center;
 }
 
-navbar ul li a {
+#navbar ul li a {
     padding: 5px;
+    border-bottom: #444 dotted 1px;
+}
+
+#showcase {
+    height: 100%;
+    width: 100%;
+}
+
+#showcase .showcase-content {
+    padding-top: 70px;
+    padding-bottom: 50px;
+}
+
+
+/*HOME INFO*/
+
+#home-info .info-img {
+    display: none;
+}
+
+#home-info .info-content {
+    float: none;
+    width: 100%;
+}
+
+
+/*Boxes*/
+
+.box {
+    float: none;
+    width: 100%;
+}
+
+
+/*ABOUT PAGE*/
+
+#about-info .info-right,
+#about-info .info-left {
+    float: none;
+    width: 100%;
+}
+
+#about-info .info-right {
+    margin-top: 30px;
+}
+
+.l-heading {
+    text-align: center;
+}
+
+
+/*CONTACT PAGE*/
+
+#contact-info .box {
     border-bottom: #444 dotted 1px;
 }
